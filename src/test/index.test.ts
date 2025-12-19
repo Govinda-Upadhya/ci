@@ -9,6 +9,6 @@ describe("testing sum function", () => {
 
 describe("testing diff function", () => {
   it("2 - 3 gives 5", () => {
-    expect(diff(2, 3)).toBe(0);
+    expect(diff(2, 3)).toBe(-1);
   });
 });
